@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palindrome Checker</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <div class="freecodecamp-logo">
+        freeCodeCamp <i class="fa-brands fa-free-code-camp"></i>
+      </div>
+      <h1 class="title">It is a Palidrome?</h1>
+      <div class="palindrome-div">
+        <label for="text-input">Enter in text to check for a palindrome:</label>
+        <input type="text" id="text-input" class="palindrome-input" />
+        <button class="palindrome-btn" id="check-btn">Check</button>
+        <div class="results-div hidden" id="result"></div>
+      </div>
+      <div class="palindrome-defination-div">
+        <p class="palindrome-defination">
+          💡 A <dfn>palindrome</dfn>
+          is a word or sentence that's spelled the same way both forward and
+          backward, ignoring punctuation, case, and spacing.
+        </p>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
